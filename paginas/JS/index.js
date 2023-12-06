@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Función para desplazarse a una sección específica
+    // Función para desplazarse a la sección que quiero
     function scrollToSection(sectionId) {
       document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
     }

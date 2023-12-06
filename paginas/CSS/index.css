@@ -789,3 +789,18 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	margin-bottom: 50px;
 }
+
+
+.carousel-control-next-icon {
+color: #000000;
+background-color: #000000;
+}
+.carousel-control-prev-icon {
+    color: #000000;
+    background-color: #000000;
+}
+
+.sr-only {
+color: #000000;
+font-weight: bolder
+}
