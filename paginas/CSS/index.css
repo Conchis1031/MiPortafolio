@@ -285,107 +285,6 @@ header {
 	color: #FFFFFF;
 	font-size: 50px;
 }
-.main_nav {
-	position: fixed;
-	top: 0px;
-	max-height: 50px;
-	z-index: 999;
-	width: 100%;
-	padding-top: 17px;
-	background: none;
-	overflow: hidden;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	opacity: 0;
-	top: -100px;
-	padding-bottom: 6px;
-}
-
-@media only screen and (max-width: 766px) {
-.main_nav {
-	padding-top: 0px;
-}
-}
-.open-nav {
-	max-height: 400px !important;
-}
-.sticky {
-	background-color: #ffffff;
-	opacity: 1;
-	top: 0px;
-}
-nav {
-	width: 100%;
-	margin-top: 0px;
-}
-
-@media only screen and (max-width: 766px) {
-nav {
-	width: 100%;
-}
-}
-nav ul {
-	list-style: none;
-	overflow: hidden;
-	text-align: center;
-}
-
-@media only screen and (max-width: 766px) {
-nav ul {
-	padding-top: 0px;
-	margin-bottom: 22px;
-	text-align: center;
-	width: 100%;
-}
-}
-nav ul li {
-	display: inline-block;
-	margin-left: 35px;
-	line-height: 1.5;
-	letter-spacing: 1px;
-    margin-top: 15px;
-}
-
-@media only screen and (max-width: 766px) {
-nav ul li {
-	width: 100%;
-	padding: 7px 0;
-	margin: 0;
-}
-nav ul li:first-child {
-	margin-top: 70px;
-}
-}
-nav ul a {
-	text-transform: uppercase;
-	font-size: 12px;
-	text-decoration: none;
-}
-nav ul a:hover {
-	color: #CFCFCF;
-}
-.mobile-toggle {
-	display: none;
-	cursor: pointer;
-	font-size: 20px;
-	position: absolute;
-	right: 22px;
-	top: 0;
-	width: 30px;
-}
-
-@media only screen and (max-width: 766px) {
-.mobile-toggle {
-	display: block;
-}
-}
-.mobile-toggle span {
-	width: 30px;
-	height: 4px;
-	margin-bottom: 6px;
-	background: #000000;
-	display: block;
-}
 .scroll-down {
 	position: absolute;
 	left: 50%;
@@ -720,6 +619,21 @@ input:focus, textarea:focus {
 	}
 }
 
+#form-div {
+	background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+opacity: .8;
+}
+
+#button-blue{
+	background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg);
+font-size: large;
+padding:0%;
+margin: 0%;
+border-color: transparent;
+}
+
+
+
 /* Lists
 ********************************************************************* */
 ul {
@@ -803,4 +717,11 @@ background-color: #000000;
 .sr-only {
 color: #000000;
 font-weight: bolder
+}
+
+
+a.nav-link {
+	font-size: x-large;
+	font-weight: lighter;
+	margin: 13px;
 }
